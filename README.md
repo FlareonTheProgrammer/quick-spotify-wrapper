@@ -39,11 +39,11 @@ _information related to how to use search can be found here: [Spotify API Refere
 
 ## Recommendations API
 
-**AN IMPORTANT THING TO UNDERSTAND IS THAT BETWEEN SEED_ARTISTS, SEED_GENRES, AND SEED_TRACKS, YOU CAN ONLY HAVE A MAX OF 5 COMBINED! NOT 5 PER SEED!**
+[!] **AN IMPORTANT THING TO UNDERSTAND IS THAT BETWEEN SEED_ARTISTS, SEED_GENRES, AND SEED_TRACKS, YOU CAN ONLY HAVE A MAX OF 5 _COMBINED_, NOT 5 PER SEED!**
 
-Recommendations API can be a bit complex so here are some examples:
+The Recommendations API can be a bit complex, so here are some examples:
 
-Basic:
+Basic example:
 
 ```js
 (async () => {
@@ -59,9 +59,9 @@ Basic:
 })();
 ```
 
-What this does is generates recommendations from artists, genres, and tracks provided. You can provide up to 5 tracks, genres, and artists. this is the most basic example.
+What this does is generate recommendations based on the artists, genres, and tracks provided. You can provide up to 5 tracks, genres, and artists.
 
-Here is a more complex example:
+More complex example:
 
 ```js
 (async () => {

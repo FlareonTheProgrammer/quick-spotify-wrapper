@@ -88,7 +88,7 @@ _More information on how to use this API can be found here: [Spotify API Docs](h
 Spotify api returns error objects in the following form:
 
 ```json
-{ "error": { "status": <http resonse code>, "message": "<error messages>" } }
+{ "error": { "status": "<http_resonse_code>", "message": "<error messages>" } }
 ```
 
 Examples:

@@ -1,5 +1,5 @@
 /* 
- *  Ssimple nodejs wrapper for the Spotify API that was developed for Woof discord bot by Chat&Share
+ *  Simple nodejs wrapper for the Spotify API that was developed for Woof discord bot by Chat&Share
  *  Copyright (C) 2020 Puyodead1
  *  
  *  This program is free software: you can redistribute it and/or modify

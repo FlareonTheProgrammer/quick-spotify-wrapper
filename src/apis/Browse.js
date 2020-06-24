@@ -1,5 +1,5 @@
 /*
- *  Ssimple nodejs wrapper for the Spotify API that was developed for Woof discord bot by Chat&Share
+ *  Simple nodejs wrapper for the Spotify API that was developed for Woof discord bot by Chat&Share
  *  Copyright (C) 2020 Puyodead1
  *
  *  This program is free software: you can redistribute it and/or modify
@@ -183,13 +183,13 @@ class Browse {
       this.spotify
         .makeRequest(
           `/recommendations?limit=${limit}${
-            max.length > 0 ? "&" + max.join("&") : ""
+          max.length > 0 ? "&" + max.join("&") : ""
           }${
-            min.length > 0 ? "&" + min.join("&") : ""
+          min.length > 0 ? "&" + min.join("&") : ""
           }&seed_artists=${seedArtists.join(",")}&seed_genres=${seedGenres.join(
             ","
           )}&seed_tracks=${seedTracks.join(",")}${
-            target.length > 0 ? "&" + target.join("&") : ""
+          target.length > 0 ? "&" + target.join("&") : ""
           }`
         )
         .then((res) => {

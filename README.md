@@ -1,9 +1,9 @@
 # Spotify API Wrapper
 
-Full documentation can be found here: https://chat-and-share.github.io/quick-spotify-wrapper
-For support you can join our Discord server: https://discord.gg/yvFPHg3
+Full documentation can be found here: <https://chat-and-share.github.io/quick-spotify-wrapper>
+For support you can join our Discord server: <https://discord.gg/yvFPHg3>
 
-# Creating a client
+## Creating a client
 
 Example:
 
@@ -17,11 +17,11 @@ const spotify = new Spotify("client id", "client secret");
 })();
 ```
 
-# Authentication Status
+## Authentication Status
 
 You can check the authentication status with `spotify.authenticated` which will return a boolean
 
-# Search
+## Search
 
 Search Example:
 
@@ -37,7 +37,7 @@ Search Example:
 
 _information related to how to use search can be found here: [Spotify API Reference](https://developer.spotify.com/documentation/web-api/reference/search/search/)_
 
-# Recommendations API
+## Recommendations API
 
 **AN IMPORTANT THING TO UNDERSTAND IS THAT BETWEEN SEED_ARTISTS, SEED_GENRES, AND SEED_TRACKS, YOU CAN ONLY HAVE A MAX OF 5 COMBINED! NOT 5 PER SEED!**
 
@@ -83,7 +83,7 @@ This example generates recommendations with a minimum popularity of 1 and speech
 
 _More information on how to use this API can be found here: [Spotify API Docs](https://developer.spotify.com/documentation/web-api/reference/browse/get-recommendations/)_
 
-# Errors:
+## Errors
 
 Spotify api returns error objects in the following form:
 

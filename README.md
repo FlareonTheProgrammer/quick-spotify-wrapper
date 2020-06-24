@@ -39,7 +39,7 @@ _information related to how to use search can be found here: [Spotify API Refere
 
 ## Recommendations API
 
-[!] **AN IMPORTANT THING TO UNDERSTAND IS THAT BETWEEN SEED_ARTISTS, SEED_GENRES, AND SEED_TRACKS, YOU CAN ONLY HAVE A MAX OF 5 _COMBINED_, NOT 5 PER SEED!**
+**AN IMPORTANT THING TO UNDERSTAND IS THAT BETWEEN SEED_ARTISTS, SEED_GENRES, AND SEED_TRACKS, YOU CAN ONLY HAVE A MAX OF 5 _COMBINED_, NOT 5 PER SEED!**
 
 The Recommendations API can be a bit complex, so here are some examples:
 
